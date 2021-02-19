@@ -4,7 +4,7 @@
 # Инструкция по устоновке
     Прописать в GitBash:
      1. cd /*путь, куда нужно установить*
-     2. git clone https://github.com/ditras228/Personal-blog-GULP.git
+     2. git clone https://github.com/ditras228/java-pictures.git
      3. Запустить index.html
      
 # Задачи 
