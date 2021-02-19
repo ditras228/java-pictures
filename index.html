@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vendor/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
 </head>
+
 <body onload="start()">
-    <div class="slides">
-        <image></image>
+    <div class="container">
+        <div class="right">
+            <image class="view"></image>
+            <div class="view_text"></div>
+        </div>
+        <div class="gallery">
+            <div class="gallery_title">Галерея</div>
+            <div class="gallery_container">
+                <div class="grid"></div>
+            </div>
+        </div>
     </div>
 </body>
-<script src="image.js"></script>
+<script src="js/image.js"></script>
+
 </html>
